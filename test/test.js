@@ -22,6 +22,7 @@ describe('User API', function() {
 	});
 	
 	after(function(done){
+		console.log('Server is closed!');
 		server.close(done)
 	});
 	
